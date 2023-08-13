@@ -37,11 +37,11 @@ inquirer.prompt(questions).then((responses) => {
 
     var SVG = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
         ${shape.render()}
-        <text x="150" y="125" font-size="60" text-anchor="middle" fill="${responses.textColor}">${responses.text}</text>
+        <text x="150" y="120" font-size="60" text-anchor="middle" fill="${responses.textColor}">${responses.text}</text>
         </svg>`;
-        
+
     fs.writeFile("./generated-svgs/logo1.svg", SVG, function (err) {
         if (err) throw err;
-        console.log("Saved!");
+        console.log("Logo created in <generated-svgs> folder as logo1.svg. Open index.html to view it.");
     });
 });
