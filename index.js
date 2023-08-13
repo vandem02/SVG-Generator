@@ -42,6 +42,6 @@ inquirer.prompt(questions).then((responses) => {
 
     fs.writeFile("./generated-svgs/logo1.svg", SVG, function (err) {
         if (err) throw err;
-        console.log("Logo created in <generated-svgs> folder as logo1.svg. Open index.html to view it.");
+        console.log("Logo created in <generated-svgs> folder as logo1.svg. Open index.html in your browser to view it.");
     });
 });
