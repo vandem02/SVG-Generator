@@ -1,34 +1,35 @@
 {
-  "name": "svg-generator",
-  "version": "1.0.0",
-  "description": "A node project for generating SVG logos.",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vandem02/SVG-Generator.git"
-  },
-  "keywords": [
-    "node",
-    "npm",
-    "jest",
-    "inquirer",
-    "svg"
-  ],
-  "author": "Evan Vandenberg",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vandem02/SVG-Generator/issues"
-  },
-  "homepage": "https://github.com/vandem02/SVG-Generator#readme",
-  "dependencies": {
-    "inquirer": "^9.2.10",
-    "jest": "^29.6.2"
-  }
+    "name": "svg-generator",
+    "version": "1.0.0",
+    "description": "A node project for generating SVG logos.",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vandem02/SVG-Generator.git"
+    },
+    "keywords": [
+        "node",
+        "npm",
+        "jest",
+        "inquirer",
+        "svg"
+    ],
+    "author": "Evan Vandenberg",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vandem02/SVG-Generator/issues"
+    },
+    "homepage": "https://github.com/vandem02/SVG-Generator#readme",
+    "dependencies": {
+        "inquirer": "^9.2.10",
+        "jest": "^29.6.2"
+    },
+    "type": "module"
 }
